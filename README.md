@@ -1,5 +1,9 @@
 # rf2o_laser_odometry
 
+**Forked from MAPIRlab/rf2o_laser_odometry.** <br />
+Edited README.md and launch/rf2o_laser_odometry.launch.py. <br />
+Used with park_bot https://github.com/nishalangovender/park_bot.
+
 Estimation of 2D odometry based on planar laser scans. rf2o is a fast and precise method to estimate the planar motion of a lidar from consecutive range scans. Useful for mobile robots with inaccurate wheel odometry.
 
 For every scanned point we formulate the range flow constraint equation in terms of the sensor velocity, and minimize a robust function of the resulting geometric constraints to obtain the motion estimate. Conversely to traditional approaches, this method does not search for correspondences but performs dense scan alignment based on the scan gradients, in the fashion of dense 3D visual odometry.
